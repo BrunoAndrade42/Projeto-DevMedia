@@ -1,0 +1,365 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Raleway;
+    background-color: rgb(241, 241, 241);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.icon {
+    font-size: 25px;
+    color: #f44336;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.icon2 {
+    font-size: 25px;
+    color: rgb(117, 117, 117);
+}
+
+nav {
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1 {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 4.7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.form-options {
+    position: absolute;
+    width: 65%;
+    /* background-color: red; */
+}
+
+.options {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+}
+
+.options div {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.options div:first-child {
+    background-color: #f44336;
+}
+
+.options div:not(:first-child) {
+    background-color: black;
+}
+
+.icon-option {
+    margin-right: 10px;
+}
+
+.search-options {
+    background-color: white;
+    height: 30vh;
+    padding: 16px;
+}
+
+.text-p {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.form-search {
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div label {
+    font-size: 1.2rem;
+    width: 50%;
+    order: 1;
+    margin-top: 5px;
+}
+
+.form-search input {
+    font-size: 1.28rem;
+    width: 48.2%;
+    height: 40px;
+    order: 2;
+    margin-top: 5px;
+    border: 0.5px solid rgb(204, 204, 204);
+}
+
+.input1 {
+    margin-right: 16px;
+}
+
+
+.form-button {
+    padding: 12px 15px;
+    background-color: rgb(97, 97, 97);
+    border: 0;
+}
+
+.form-button span {
+    font-size: 15px;
+    color: white;
+}
+
+.container-page {
+    padding: 3rem 10rem 0 10rem;
+}
+
+.info-page p:first-child {
+    font-size: 2rem;
+}
+
+.info-page p:last-child {
+    font-size: 1.35rem;
+    margin: 20px 0 15px 0;
+}
+
+.info-page p span {
+    font-weight: bold;
+}
+
+.figure-places {
+    display: flex;
+}
+
+.mini-container {
+    position: relative;
+}
+
+
+.figure-places .principal-place img {
+    width: 40vw;
+    margin-right: 20px;
+}
+
+.figure-places div:last-child {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.figure-places div:last-child figure img {
+    width: 19vw;
+}
+
+.mini-container figcaption {
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+}
+
+.principal-place .mini-container figcaption {
+    margin: 371px 17px 0;
+}
+
+
+.four-places .mini-container figcaption {
+    margin: 160px 17px 0;
+}
+
+.card-nature {
+    display: flex;
+}
+.card-nature div:first-child {
+    margin-right: 15px;
+}
+
+.card-nature div img {
+    width: 100%;
+}
+
+.text-card {
+    background-color: white;
+    padding: 15px;
+}
+
+.text-card h1 {
+    font-size: 1.85rem;
+}
+
+.text-card p {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(197, 197, 197);
+}
+
+.text-card .p2 {
+    color: black;
+}
+
+.text-card button {
+    font-size: 1.285rem;
+    margin: 25px 0 5px 10px;
+    background-color: transparent;
+    border: 0;
+}
+
+.info-div {
+    background-color: rgb(96, 96, 96);
+}
+.news-info {
+    padding: 7px 15px;
+    color: white;
+}
+
+.news-info h1 {
+    font-size: 2.5rem;
+    padding: 17px 0;
+}
+
+.news-info h4 {
+    font-size: 1.3rem;
+}
+
+.news-info:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-info:nth-child(2) label {
+    order: -1;
+}
+
+.news-info:nth-child(2) input {
+    height: 3rem;
+    margin-top: 5px;
+    font-size: 1.25rem;
+    border: 0;
+}
+
+.news-info button {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    background-color: #f44336;
+    border: 0;
+    color: white;
+}
+
+.contact-info h1 {
+    font-size: 2.3rem;
+}
+
+.contact-info h4 {
+    font-size: 1.175rem;
+    margin: 30px 0;
+}
+
+.contact-info:nth-child(2) {
+    font-size: 1.25rem;
+}
+
+.contact-info:nth-child(2) span{
+    margin: 0 10px 0;
+}
+
+.contact-info:nth-child(2) div{
+    margin: 0 0 10px 0;
+}
+
+.contact-info:last-child form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info:last-child form input {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    border: 1px solid rgb(197, 197, 197);
+    height: 50px;
+}
+
+.contact-info button {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    border: 0;
+    padding: 14px 23px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info {
+    color: rgb(117, 117, 117);
+}
+
+.footer-info h1 {
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+.footer-info i {
+    font-size: 2rem;
+    padding: 3px;
+}
+
+.footer-info p{
+    font-size: 1.25rem;
+    padding: 40px 0;
+}
